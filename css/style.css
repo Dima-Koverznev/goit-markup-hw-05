@@ -682,11 +682,15 @@ transform: translateY(100%);
 transition: transform var(--tra);
 }
 
-.portfolio-list .item:hover .overlay {
+.portfolio-list .item :hover .overlay {
   transform: translateX(0);
   transition: transform var(--tra);
 }
 
+.portfolio-list .item :focus .overlay {
+  transform: translateX(0);
+  transition: transform var(--tra);
+}
 
 .portfolio-list .title {
   margin-bottom: 4px;
